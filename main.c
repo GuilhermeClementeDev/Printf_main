@@ -15,8 +15,8 @@ int main()
 
 	// testes %i
 	//int test = 0x73;
-	/*printf("%d\n",printf("%i\n", 0x73));
-	ft_printf("%d\n",ft_printf("%i\n", 0x73));*/
+	/*printf("%d\n",printf("%i%i%i\n", 0x73,1,42));
+	ft_printf("%d\n",ft_printf("%i%i%i\n", 0x73,1,42));*/
 
 	// test %u
 	/*ft_printf("MY\n");
@@ -43,4 +43,11 @@ int main()
 	/*char *s;
 	ft_printf("%d\n", ft_printf("%p \n", &s));
 	printf("%d\n", printf("%p \n", &s));*/
+
+	/*printf("%d", printf(0));
+	ft_printf("%d", ft_printf(0));*/
+
+	/*char *b = "";
+	printf("%d", printf("%s",b));
+	ft_printf("%d", ft_printf("%s",b));*/
 }
