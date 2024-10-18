@@ -1,4 +1,4 @@
-#include "lib_printf.h"
+#include "ft_printf.h"
 #include <stdio.h>
 
 int main()
@@ -13,29 +13,34 @@ int main()
 	ft_printf("\nMY size :%d\n", ft_printf("%c have %d years so i was born in %i\nMy team is %s\nAnd i have %d on my bank.", a, years, i, s, money));
 	printf("\nORI size :%d\n", printf("%c have %d years so i was born in %i\nMy team is %s\nAnd i have %d on my bank.", a, years, i, s, money));*/
 
-	/*// test %u
-	ft_printf("MY\n");
-	ft_printf("%u\n", -10);
-	ft_printf("%u\n", 10);
-	ft_printf("%u\n", 2147483647);
-	ft_printf("ORI\n");
-	printf("%u\n", -10);
-	printf("%u\n", 10);
-	printf("%u\n", 2147483647);*/
+	// testes %i
+	//int test = 0x73;
+	/*printf("%d\n",printf("%i\n", 0x73));
+	ft_printf("%d\n",ft_printf("%i\n", 0x73));*/
 
-	/*// test %x
-	ft_printf("MY\n");
-	ft_printf("%X\n", -78787);
+	// test %u
+	/*ft_printf("MY\n");
+	ft_printf("%d\n", ft_printf("%u\n", -10));
+	ft_printf("%d\n",ft_printf("%u\n", 10));
+	ft_printf("%d\n",ft_printf("%u\n", 2147483647));
 	ft_printf("ORI\n");
-	printf("%X\n", -78787);
-	*/
+	printf("%d\n",printf("%u\n", -10));
+	printf("%d\n",printf("%u\n", 10));
+	printf("%d\n",printf("%u\n", 2147483647));*/
 
-	/*// %%
-	ft_printf ("%%\n");
-	printf ("%%\n");*/
+	// test %x
+	/*ft_printf("MY\n");
+	ft_printf("%d\n",ft_printf("%x\n", -78787));
+	ft_printf("ORI\n");
+	printf("%d\n",printf("%x\n", -78787));*/
+
+
+	// %%
+	/*ft_printf ("%d\n", ft_printf ("%%\n"));
+	printf ("%d\n", printf ("%%\n"));*/
 
 	// %p
-	char *s;
-	ft_printf("%p \n", &s);
-	printf("%p \n", &s);
+	/*char *s;
+	ft_printf("%d\n", ft_printf("%p \n", &s));
+	printf("%d\n", printf("%p \n", &s));*/
 }
