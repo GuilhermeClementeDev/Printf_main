@@ -40,14 +40,14 @@ int main()
 	printf ("%d\n", printf ("%%\n"));*/
 
 	// %p
-	/*char *s;
-	ft_printf("%d\n", ft_printf("%p \n", &s));
-	printf("%d\n", printf("%p \n", &s));*/
+	/*char *d;
+	ft_printf("%d\n", ft_printf("%p \n", &d));
+	printf("%d\n", printf("%p \n", &d));*/
 
-	/*printf("%d", printf(0));
-	ft_printf("%d", ft_printf(0));*/
+	/*printf("%d\n", printf(0));
+	ft_printf("%d\n", ft_printf(0));*/
 
 	/*char *b = "";
-	printf("%d", printf("%s",b));
-	ft_printf("%d", ft_printf("%s",b));*/
+	printf("%d", printf("%s\n",b));
+	ft_printf("%d", ft_printf("%s\n",b));*/
 }
